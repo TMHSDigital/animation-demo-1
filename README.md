@@ -29,35 +29,35 @@ Check out the live demo: Animation Demo
 
 ---
 
-_Prerequisites_
+#### _Prerequisites_
 Git: Ensure Git is installed on your local machine.
 GitHub Account: You'll need a GitHub account to clone and push repositories.
 
 ---
 
-_Installation_
+#### _Installation_
 
 ---
 
-_Clone the Repository_
+#### _Clone the Repository_
 ```bash
 git clone https://github.com/TMHSDigital/animation-demo-1.git
 ```
 
 ---
 
-_Navigate to the Project Directory_
+#### _Navigate to the Project Directory_
 ```bash
 cd animation-demo-1
 ```
 
 ---
 
-_Open the Project_
+#### _Open the Project_
 
 ---
 
-_Open index.html in your preferred web browser to view the animation locally._
+#### _Open index.html in your preferred web browser to view the animation locally._
 
 ---
 
@@ -69,18 +69,34 @@ Click the "Use this template" button on the repository page.
 Create Your Repository
 
 Enter a name for your new repository and click "Create repository from template".
-Clone Your New Repository
 
+
+#### __Clone Your New Repository__
 ```bash
 git clone https://github.com/yourusername/your-new-repository.git
 ```
-Customizing the Content
-HTML (index.html)
+
+---
+
+#### __Customizing the Content__
+
+---
+
+#### __HTML (index.html)__
 Modify the structure and content of your webpage.
-CSS (styles.css)
+
+---
+
+#### __CSS (styles.css)__
 Customize styles, layouts, and responsive design.
-JavaScript (scripts.js)
+
+---
+
+#### __JavaScript (scripts.js)__
 Edit animations or add new interactive elements using GSAP.
+
+---
+
 Deploying to GitHub Pages
 Commit and Push Changes
 
