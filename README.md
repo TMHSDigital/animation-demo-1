@@ -9,34 +9,38 @@ Simple and Clean Structure: Easy-to-understand HTML, CSS, and JavaScript files.
 Powered by GSAP: Utilize the GreenSock Animation Platform (GSAP) for high-performance animations.
 Easy Customization: Modify and extend to suit your animation needs.
 Responsive Design: Mobile-friendly and adaptable to different screen sizes.
+
 ## 🎯 __Demo__
 Check out the live demo: Animation Demo
 
 ---
 
 # 📋Table of Contents
-Features
-Demo
-Getting Started
-Usage
-Contributing
-License
-Contact
-🛠️ Getting Started
+
+- Features
+- Demo
+- Getting Started
+- Usage
+- Contributing
+- License
+- Contact
+
+## 🛠️ __Getting Started__
 Prerequisites
 Git: Ensure Git is installed on your local machine.
 GitHub Account: You'll need a GitHub account to clone and push repositories.
 Installation
 Clone the Repository
 
-```bash
+    ```bash
 git clone https://github.com/TMHSDigital/animation-demo-1.git
-```
+    ```
+
 Navigate to the Project Directory
 
-```bash
+    ```bash
 cd animation-demo-1
-```
+    ```
 
 Open the Project
 
@@ -55,7 +59,6 @@ Enter a name for your new repository and click "Create repository from template"
 Clone Your New Repository
 
 ```bash
-Copy code
 git clone https://github.com/yourusername/your-new-repository.git
 ```
 Customizing the Content
@@ -68,7 +71,7 @@ Edit animations or add new interactive elements using GSAP.
 Deploying to GitHub Pages
 Commit and Push Changes
 
-    ```bash
+```bash
 git add .
 git commit -m "Customize animation demo"
 git push origin main
@@ -108,19 +111,28 @@ Contributions are welcome! Please follow these steps:
 1. Fork the Repository
 2. Create a New Branch
 3. 
-    ```bash
+```bash
 git checkout -b feature/YourFeature
+```
 Commit Your Changes
 
-    ```bash
-Copy code
+---
+
+```bash
 git commit -m "Add YourFeature"
+```
+
 Push to the Branch
 
-    ```bash
+---
+
+```bash
 git push origin feature/YourFeature
 ```
+
 Open a Pull Request
+
+---
 
 ## 📄 __License__
 This project is licensed under the Apache-2.0 License - see the LICENSE file for details.
