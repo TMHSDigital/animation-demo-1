@@ -14,7 +14,7 @@ Check out the live demo: Animation Demo
 
 ---
 
-# 📋_Table of Contents_
+# 📋Table of Contents
 Features
 Demo
 Getting Started
