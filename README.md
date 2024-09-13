@@ -166,6 +166,15 @@ Open a Pull Request
 This project is licensed under the Apache-2.0 License - see the LICENSE file for details.
 
 ## 📬 __Contact__
-GitHub: TMHSDigital
-Email: Coming Soon!
-_Made with ❤️ by_ __TMHSDigital__
+
+---
+
+### GitHub: TMHSDigital
+
+---
+
+### Email: Coming Soon!
+
+---
+
+### _Made with ❤️ by_ __TMHSDigital__
