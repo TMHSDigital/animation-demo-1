@@ -1,14 +1,195 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f0f0f0;
+    --text-color: #333;
 }
 
-/* Style for the animated box */
-.animated-box {
-    width: 100px;
-    height: 100px;
-    background-color: crimson;
-    margin: 0 auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+header, footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#theme-switcher {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#demo-container {
+    width: 300px;
+    height: 300px;
     position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#character-svg {
+    width: 100%;
+    height: 100%;
+}
+
+#controls {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+input[type="range"] {
+    width: 200px;
+}
+
+#audio-section {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+#audio-player {
+    width: 100%;
+}
+
+#audio-visualizer {
+    height: 100px;
+    background-color: #333;
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+#audio-visualizer div {
+    flex: 1;
+    background-color: var(--primary-color);
+    margin: 0 1px;
+    transition: height 0.1s ease;
+}
+
+#parallax-section {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.parallax-layer:nth-child(1) {
+    background-color: rgba(52, 152, 219, 0.7);
+}
+
+.parallax-layer:nth-child(2) {
+    background-color: rgba(46, 204, 113, 0.7);
+}
+
+.parallax-layer:nth-child(3) {
+    background-color: rgba(155, 89, 182, 0.7);
+}
+
+footer a {
+    color: var(--primary-color);
+}
+
+/* Theme: Dark */
+body.theme-dark {
+    --primary-color: #3498db;
+    --secondary-color: #34495e;
+    --background-color: #2c3e50;
+    --text-color: #ecf0f1;
+}
+
+/* Theme: Neon */
+body.theme-neon {
+    --primary-color: #ff00ff;
+    --secondary-color: #00ffff;
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #demo-container {
+        width: 250px;
+        height: 250px;
+    }
+
+    #controls {
+        flex-direction: column;
+    }
+
+    #parallax-section {
+        height: 300px;
+    }
+
+    .parallax-layer {
+        font-size: 2rem;
+    }
 }

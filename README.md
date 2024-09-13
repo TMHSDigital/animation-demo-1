@@ -1,115 +1,58 @@
-# __Animation Demo Template__
+# GSAP Animation Demo Template
 
-__Welcome to the Animation Demo Template repository! This project serves as a starting point for creating animation demo websites using GitHub Pages.__
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub stars](https://img.shields.io/github/stars/TMHSDigital/animation-demo-1.svg)](https://github.com/TMHSDigital/animation-demo-1/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/TMHSDigital/animation-demo-1.svg)](https://github.com/TMHSDigital/animation-demo-1/network)
+[![GitHub issues](https://img.shields.io/github/issues/TMHSDigital/animation-demo-1.svg)](https://github.com/TMHSDigital/animation-demo-1/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/TMHSDigital/animation-demo-1.svg)](https://github.com/TMHSDigital/animation-demo-1/commits/main)
 
----
+This repository serves as a template for creating animation demos using GSAP (GreenSock Animation Platform). It provides a simple, interactive example that can be easily customized and extended.
 
-## 🚀 __Features__
-Simple and Clean Structure: Easy-to-understand HTML, CSS, and JavaScript files.
-Powered by GSAP: Utilize the GreenSock Animation Platform (GSAP) for high-performance animations.
-Easy Customization: Modify and extend to suit your animation needs.
-Responsive Design: Mobile-friendly and adaptable to different screen sizes.
-## 🎯 __Demo__
-Check out the live demo: Animation Demo
+## Features
 
----
+- Basic HTML structure for animation demos
+- CSS styling for a clean, responsive layout
+- GSAP animation with interactive controls
+- Easy to customize and extend
+- Hosted on GitHub Pages
 
-# 📋Table of Contents
-Features
-Demo
-Getting Started
-Usage
-Contributing
-License
-Contact
-🛠️ Getting Started
-Prerequisites
-Git: Ensure Git is installed on your local machine.
-GitHub Account: You'll need a GitHub account to clone and push repositories.
-Installation
-Clone the Repository
+## Live Demo
 
-```bash
-Copy code
-git clone https://github.com/TMHSDigital/animation-demo-1.git
-```
-Navigate to the Project Directory
+Check out the live demo: [https://tmhsdigital.github.io/animation-demo-1/](https://tmhsdigital.github.io/animation-demo-1/)
 
-```bash
-Copy code
-cd animation-demo-1
-```
-Open the Project
+## Getting Started
 
-Open index.html in your preferred web browser to view the animation locally.
+To use this template for your own animation demo:
 
----
+1. Click the "Use this template" button at the top of this repository.
+2. Clone your new repository to your local machine.
+3. Modify the HTML, CSS, and JavaScript files to create your custom animation.
+4. Push your changes to GitHub.
+5. Enable GitHub Pages in your repository settings to host your demo.
 
-## 📖 __Usage__
-Creating a New Repository from This Template
-Use the Template
+## Customization
 
-Click the "Use this template" button on the repository page.
-Create Your Repository
+### HTML (index.html)
 
-Enter a name for your new repository and click "Create repository from template".
-Clone Your New Repository
+Modify the content within the `<main>` tag to change the structure of your demo. Add or remove elements as needed.
 
-```bash
-Copy code
-git clone https://github.com/yourusername/your-new-repository.git
-```
-Customizing the Content
-HTML (index.html)
-Modify the structure and content of your webpage.
-CSS (styles.css)
-Customize styles, layouts, and responsive design.
-JavaScript (scripts.js)
-Edit animations or add new interactive elements using GSAP.
-Deploying to GitHub Pages
-Commit and Push Changes
+### CSS (styles.css)
 
-```bash
-Copy code
-git add .
-git commit -m "Customize animation demo"
-git push origin main
-Enable GitHub Pages
-```
-Navigate to your repository's Settings.
-Click on Pages in the sidebar.
-Under Source, select the main branch and / (root) folder.
-Click Save.
-Access Your Live Site
+Update the styles to match your design preferences. You can change colors, sizes, layouts, and add new style rules for custom elements.
 
-Your site will be available at https://yourusername.github.io/your-new-repository/.
-🤝 Contributing
-Contributions are welcome! Please follow these steps:
+### JavaScript (scripts.js)
 
-Fork the Repository
+The main animation is created using GSAP. Modify the `gsap.timeline()` to create your own custom animations. You can also add new interactive features or event listeners.
 
-Create a New Branch
+## Contributing
 
-```bash
-Copy code
-git checkout -b feature/YourFeature
-Commit Your Changes
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-bash
-Copy code
-git commit -m "Add YourFeature"
-Push to the Branch
+## License
 
-bash
-Copy code
-git push origin feature/YourFeature
-Open a Pull Request
-```
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## 📄 __License__
-This project is licensed under the Apache-2.0 License - see the LICENSE file for details.
+## Contact
 
-## 📬 __Contact__
-GitHub: TMHSDigital
-Email: Coming Soon!
-_Made with ❤️ by_ __TMHSDigital__
+GitHub: [@TMHSDigital](https://github.com/TMHSDigital)
+Email: [contact@tmhsdigital.com](mailto:contact@tmhsdigital.com)
