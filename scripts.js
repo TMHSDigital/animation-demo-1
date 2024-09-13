@@ -11,6 +11,32 @@ document.addEventListener('DOMContentLoaded', () => {
     let character;
     let tl;
 
+    // Animated Title
+    const title = document.querySelector('.animated-title');
+    const text = title.textContent;
+    title.textContent = '';
+    title.setAttribute('data-text', text);
+
+    for (let i = 0; i < text.length; i++) {
+        const span = document.createElement('span');
+        span.textContent = text[i];
+        span.style.animationDelay = `${i * 0.1}s`;
+        span.style.animationDuration = `${2 + Math.random()}s`;
+        title.appendChild(span);
+    }
+
+    // Pulse animation for each letter
+    gsap.to('.animated-title span', {
+        scale: 1.1,
+        duration: 1,
+        ease: "power1.inOut",
+        stagger: {
+            each: 0.1,
+            repeat: -1,
+            yoyo: true
+        }
+    });
+
     characterSvg.addEventListener('load', () => {
         const svgDoc = characterSvg.contentDocument;
         character = svgDoc.getElementById('character');

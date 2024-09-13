@@ -1,8 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="body-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(52,152,219);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(41,128,185);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
   <g id="character">
-    <circle id="body" cx="100" cy="100" r="50" fill="#3498db"/>
-    <circle id="eye-left" cx="85" cy="85" r="10" fill="white"/>
-    <circle id="eye-right" cx="115" cy="85" r="10" fill="white"/>
-    <path id="mouth" d="M70 120 Q100 150 130 120" fill="none" stroke="white" stroke-width="5"/>
+    <!-- Body -->
+    <circle id="body" cx="100" cy="100" r="50" fill="url(#body-gradient)"/>
+    
+    <!-- Face -->
+    <circle cx="100" cy="100" r="40" fill="#ffffff" opacity="0.6"/>
+    
+    <!-- Eyes -->
+    <g id="eyes">
+      <g id="eye-left">
+        <circle cx="85" cy="85" r="10" fill="white"/>
+        <circle cx="85" cy="85" r="5" fill="#333333"/>
+        <circle cx="87" cy="83" r="2" fill="white"/>
+      </g>
+      <g id="eye-right">
+        <circle cx="115" cy="85" r="10" fill="white"/>
+        <circle cx="115" cy="85" r="5" fill="#333333"/>
+        <circle cx="117" cy="83" r="2" fill="white"/>
+      </g>
+    </g>
+    
+    <!-- Mouth -->
+    <path id="mouth" d="M75 115 Q100 135 125 115" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Antenna -->
+    <line x1="100" y1="50" x2="100" y2="20" stroke="#333333" stroke-width="2"/>
+    <circle cx="100" cy="15" r="5" fill="#ff5252"/>
+    
+    <!-- Arms -->
+    <path d="M60 100 Q40 110 35 140" fill="none" stroke="#3498db" stroke-width="8" stroke-linecap="round"/>
+    <path d="M140 100 Q160 110 165 140" fill="none" stroke="#3498db" stroke-width="8" stroke-linecap="round"/>
   </g>
 </svg>
