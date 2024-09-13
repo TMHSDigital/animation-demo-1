@@ -30,15 +30,14 @@ Installation
 Clone the Repository
 
 ```bash
-Copy code
 git clone https://github.com/TMHSDigital/animation-demo-1.git
 ```
 Navigate to the Project Directory
 
 ```bash
-Copy code
 cd animation-demo-1
 ```
+
 Open the Project
 
 Open index.html in your preferred web browser to view the animation locally.
@@ -69,42 +68,59 @@ Edit animations or add new interactive elements using GSAP.
 Deploying to GitHub Pages
 Commit and Push Changes
 
-```bash
-Copy code
+    ```bash
 git add .
 git commit -m "Customize animation demo"
 git push origin main
-Enable GitHub Pages
 ```
+
+---
+
+Enable GitHub Pages
+
+---
+
 Navigate to your repository's Settings.
+
+---
+
 Click on Pages in the sidebar.
+
+---
+
 Under Source, select the main branch and / (root) folder.
+
+---
+
 Click Save.
+
+---
+
 Access Your Live Site
 
-Your site will be available at https://yourusername.github.io/your-new-repository/.
-🤝 Contributing
+---
+
+## _Your site will be available at https://yourusername.github.io/your-new-repository/._
+
+## 🤝 __Contributing__
 Contributions are welcome! Please follow these steps:
 
-Fork the Repository
-
-Create a New Branch
-
-```bash
-Copy code
+1. Fork the Repository
+2. Create a New Branch
+3. 
+    ```bash
 git checkout -b feature/YourFeature
 Commit Your Changes
 
-bash
+    ```bash
 Copy code
 git commit -m "Add YourFeature"
 Push to the Branch
 
-bash
-Copy code
+    ```bash
 git push origin feature/YourFeature
-Open a Pull Request
 ```
+Open a Pull Request
 
 ## 📄 __License__
 This project is licensed under the Apache-2.0 License - see the LICENSE file for details.
