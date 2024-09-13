@@ -26,25 +26,38 @@ Check out the live demo: Animation Demo
 - Contact
 
 ## 🛠️ __Getting Started__
-Prerequisites
+
+---
+
+_Prerequisites_
 Git: Ensure Git is installed on your local machine.
 GitHub Account: You'll need a GitHub account to clone and push repositories.
-Installation
-Clone the Repository
 
-    ```bash
+---
+
+_Installation_
+
+---
+
+_Clone the Repository_
+```bash
 git clone https://github.com/TMHSDigital/animation-demo-1.git
-    ```
+```
 
-Navigate to the Project Directory
+---
 
-    ```bash
+_Navigate to the Project Directory_
+```bash
 cd animation-demo-1
-    ```
+```
 
-Open the Project
+---
 
-Open index.html in your preferred web browser to view the animation locally.
+_Open the Project_
+
+---
+
+_Open index.html in your preferred web browser to view the animation locally._
 
 ---
 
@@ -114,21 +127,20 @@ Contributions are welcome! Please follow these steps:
 ```bash
 git checkout -b feature/YourFeature
 ```
-Commit Your Changes
 
 ---
 
+Commit Your Changes
 ```bash
 git commit -m "Add YourFeature"
 ```
 
-Push to the Branch
-
----
-
+_Push to the Branch_
 ```bash
 git push origin feature/YourFeature
 ```
+
+---
 
 Open a Pull Request
 
